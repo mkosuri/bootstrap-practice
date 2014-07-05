@@ -24,12 +24,16 @@
        <div class="top">
             <div class="container">
                 <div class="row-fluid">
-                    <i class="fa fa-phone"></i><span>8888888888</span>&nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-envelope"></i><span>reach@navaratan.com</span>
+                    <i class="fa fa-phone"></i>&nbsp;<span>8888888888</span>&nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-envelope">&nbsp;</i><span>reach@navaratan.com</span>
                     <div class="pull-right">
-                    <a href="#" class="login-btn">Help</a>
-                    <a href="#" class="login-btn">Login</a>
-                    </div>
+                    <!-- <a href="#" class="btn">Help</a> -->
+                  <button class="btn sm">Help</button>
+                  <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Signin
+                 </button>
+
+                  </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -45,7 +49,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html"><img src="assets/images/images.jpg" alt="My web solution" /></a>
+              <a class="navbar-brand" href="index.html"><img src="assets/images/images.jpg" alt="navaran" /></a>
             </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -179,13 +183,56 @@
          </div> 
       </div>
     </div>
-  
+    <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">signin</h4>
+              </div>
+              <div class="modal-body well">
+                <form role="form">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <!-- <div class="form-group">
+                      <label for="exampleInputFile">File input</label>
+                      <input type="file" id="exampleInputFile">
+                      <p class="help-block">Example block-level help text here.</p>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Check me out
+                      </label>
+                    </div> -->
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Signin</button>
+
+                </form>
+              </div>
+              <!-- <div class="modal-footer">
+                
+              </div> -->
+            </div>
+          </div>
+        </div>
+      <div class="footerBottomSection">
+     <div class="container">
+       &copy; 2014, Allright reserved. <a href="#">Terms and Condition</a> | <a href="#">Privacy  Policy</a> 
+      <div class="pull-right"><a href="index.html"><img src="assets/images/images.jpg" alt="navaran" /></a></div>
+    </div>
+  </div>  
 
      </body>
     <!-- body section end -->
 <script type="text/javascript" src="assets/javascript/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="assets/javascript/bootstrap.js"></script>
 </html>
-
 
 
