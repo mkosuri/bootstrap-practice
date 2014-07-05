@@ -5,3 +5,30 @@ body{color:#858585}
     background-color: #E9E9E9;
 	/*z-index:9999;*/
 }
+  .header {
+z-index: 999;
+position: relative;
+padding: 0;
+background-color: orange;
+}
+.curelous_side {
+}
+h2{
+	color :black;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.carousel-indicators {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+.highlightSection{color:#333; background:#fafafa; padding:18px 0; border-bottom: 1px solid #D1D1D1}
+.highlightSection h2{padding-top:0; margin-top:0; font-size:21px}
+.highlightSection h4{padding-top:0; margin-top:0; line-height:1.6em; font-size:18px}
+
+h2.stylered"{
+  color :red;
+}
