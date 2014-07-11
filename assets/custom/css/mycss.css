@@ -40,5 +40,6 @@ h2.stylered"{
 #carousel-example-generic{
   background-position: relative;
 }
-
-
+ul li .transition{
+  background-color: red;
+}

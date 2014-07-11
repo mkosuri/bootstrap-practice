@@ -323,7 +323,13 @@ a {
   color: #428bca;
   text-decoration: none;
 }
-
+/*li a{
+  transition-property: background;
+  transition-duration :2s;
+}
+li a:hover{
+  background-color: red important!;
+}*/
 a:hover,
 a:focus {
   color: #2a6496;
